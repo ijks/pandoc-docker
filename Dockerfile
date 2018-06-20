@@ -5,7 +5,7 @@ RUN apt-get update -y \
         texlive-full
 
 RUN apt-get update -y \
-        && apt-get install python-pip
+        && apt-get install -y python-pip
 
 ADD \
     https://github.com/jgm/pandoc/releases/download/2.2.1/pandoc-2.2.1-1-amd64.deb \
