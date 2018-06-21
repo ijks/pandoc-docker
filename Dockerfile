@@ -11,6 +11,6 @@ RUN dpkg --install pandoc.deb
 RUN rm pandoc.deb
 
 RUN apt-get install -y \
-    python-pip \
+    python3-pip \
     poppler-utils
 
